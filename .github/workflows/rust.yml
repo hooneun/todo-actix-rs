@@ -30,8 +30,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Move cache
-      run: move /cache/target .
     - name: Build
       run: cargo build --verbose
     - name: Install diesel_cli
