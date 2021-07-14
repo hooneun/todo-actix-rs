@@ -14,9 +14,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    container:
-      image: khon0316/todo-actix-cache:
-
     services:
       postgres:
         image: postgres:13.3-alpine
